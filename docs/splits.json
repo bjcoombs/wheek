@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "updated": "2026-09-03",
+  "note": "Session assignment for train/validation/test. Session ids only, never audio or clip content. A session is one continuous recording period, one microphone placement, one date. Changing this file is propose-and-wait: the PR says why. See CLAUDE.md, Evidence gate.",
+  "session_id_format": "YYYY-MM-DD-<placement>-<nn>",
+  "placements": [],
+  "train": [],
+  "validation": [],
+  "test": [],
+  "background_only": []
+}
