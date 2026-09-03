@@ -8,3 +8,7 @@ __pycache__/
 venv/
 .env
 .DS_Store
+
+# Committed derived data (must stay below the *.csv rule above)
+!docs/metrics/**/*.csv
+!evals/fixtures/**/*.csv
